@@ -1,0 +1,23 @@
+label, input {
+    display: block;
+}
+
+input {
+    margin: auto;
+    color:indigo;
+}
+
+#login-info {
+    text-align: center;
+    margin-top: 100px;
+    color: goldenrod;
+    background-image: linear-gradient(rgb(62, 175, 250) , rgb(135, 111, 201), rgb(37, 177, 212));
+}
+
+#login-info a {
+    display: block;
+    margin-top: 4rem;
+    color:indianred;
+
+    
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="associate-homepage.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+<body>
+    <div id="assignment-image-modal" class="modal">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+        </div>
+        <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <div id="associate-homepage-grid-container">
+        <nav>
+            <h1>Welcome to the Associate homepage</h1>
+            <button id="logout">Logout</button>
+        </nav>
+
+        <div id="assignments">
+            <h2>Assignments</h2>
+            <table id="assignment-table">
+                <thead>
+                    <tr>
+                        <th>&nbsp;&nbsp;id&nbsp;&nbsp;</th>
+                        <th>&nbsp;&nbsp;assignment name&nbsp;&nbsp;</th>
+                        <th>&nbsp;&nbsp;grade&nbsp;&nbsp;</th>
+                        <th>&nbsp;&nbsp;grader id&nbsp;&nbsp;</th>
+                        <th>&nbsp;&nbsp;author id&nbsp;&nbsp;</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="assignment-submit-form">
+            <h2>Submit New Assignment</h2>
+
+            <div>
+                <label for="assignment-name">Assignment name:</label>
+                <input type="text" id="assignment-name" />
+            </div>
+            
+            <div>
+                <label for="assignment-file">Assignment Upload (JPEG, PNG, or GIF)</label>
+                <input type="file" id="assignment-file" />
+            </div>
+            
+            <div>
+                <button id="submit-assignment-btn">Submit assignment</button>
+            </div>
+        </div>
+    </div>
+    <script src="associate-homepage.js"></script>
+</body>
+</html>

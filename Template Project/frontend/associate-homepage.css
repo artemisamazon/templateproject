@@ -1,0 +1,31 @@
+/*
+    Associate Homepage styling
+*/
+#associate-homepage-grid-container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "nav nav nav "
+      "assignment-display assignment-display submit-form"
+      "assignment-display assignment-display submit-form";
+    
+}
+
+#assignments {
+    grid-area: assignment-display;
+}
+
+#assignment-submit-form {
+    grid-area: submit-form;
+}
+
+#assignment-submit-form div {
+    margin-top: 30px;
+}
+
+nav {
+    grid-area: nav;
+}
+
